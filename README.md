@@ -5,7 +5,7 @@
 
 React 18 + Vite admin dashboard template with Ant Design 5, Zustand, route guards, and theme customization.
 
-Live demo: [https://react-admin-reeswell.vercel.app](https://react-admin-reeswell.vercel.app)
+Live demo: [https://react-admin.dynaxfy.com](https://react-admin.dynaxfy.com)
 
 ## Looking for Nuxt/Vue version?
 
