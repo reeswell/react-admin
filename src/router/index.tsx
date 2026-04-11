@@ -1,5 +1,6 @@
 import { Navigate, createBrowserRouter, useLocation } from 'react-router-dom'
 import MainLayout from '../components/layout/MainLayout'
+import DepartmentPage from '../pages/eg/department'
 import FormPage from '../pages/eg/form'
 import UserPage from '../pages/eg/user'
 import Error403Page from '../pages/error/403'
@@ -34,6 +35,7 @@ export const router = createBrowserRouter([
       { path: 'sales/order', element: <SalesOrderPage /> },
       { path: 'eg/user', element: <UserPage /> },
       { path: 'eg/form', element: <FormPage /> },
+      { path: 'eg/department', element: <DepartmentPage /> },
     ],
   },
 ])

@@ -1,4 +1,5 @@
 import {
+  ApartmentOutlined,
   FormOutlined,
   HomeFilled,
   ShoppingCartOutlined,
@@ -37,6 +38,7 @@ export const menus: MenuItem[] = [
     children: [
       { key: 'eg-form', label: '表单', path: '/eg/form', icon: <FormOutlined /> },
       { key: 'eg-user', label: '表格', path: '/eg/user', icon: <TableOutlined /> },
+      { key: 'eg-department', label: '树形表格', path: '/eg/department', icon: <ApartmentOutlined /> },
     ],
   },
 ]

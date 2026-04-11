@@ -10,7 +10,7 @@ dist
 # Node dependencies
 node_modules
 icgoo_components
-
+.cursor
 # Logs
 logs
 *.log
